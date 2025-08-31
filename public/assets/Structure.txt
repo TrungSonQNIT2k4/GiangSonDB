@@ -1,0 +1,60 @@
+src/
+├── api/                # Nơi chứa tất cả các service gọi API
+│   ├── auth.js         # Các hàm liên quan đến xác thực (đăng nhập, đăng ký)
+│   ├── product.js      # Các hàm gọi API liên quan đến sản phẩm
+│   └── user.js         # Các hàm gọi API liên quan đến người dùng
+|
+├── components/         # Chứa các component dùng chung (DUMB COMPONENTS)
+│   ├── common/         # Components rất cơ bản, có thể tái sử dụng khắp nơi
+│   │   ├── Button.jsx
+│   │   ├── Modal.jsx
+│   │   ├── Table.jsx
+│   │   └── Card.jsx
+│   └── layout/         # Các thành phần tạo nên bố cục chung
+│       ├── Header.jsx
+│       ├── Sidebar.jsx
+│       └── DashboardLayout.jsx
+|
+├── features/           # NHÓM THEO TÍNH NĂNG (SMART COMPONENTS/CONTAINERS)
+│   ├── auth/
+│   │   ├── AuthProvider.jsx
+│   │   ├── components/
+│   │   │   ├── LoginForm.jsx
+│   │   │   └── RegisterForm.jsx
+│   │   └── pages/
+│   │       ├── LoginPage.jsx
+│   │       └── RegisterPage.jsx
+│   |
+│   ├── dashboard/      # Tính năng chính của Dashboard
+│   │   ├── components/ # Các components chỉ dùng cho dashboard
+│   │   │   ├── SalesChart.jsx
+│   │   │   └── TopProductsTable.jsx
+│   │   └── pages/
+│   │       └── DashboardPage.jsx
+│   |
+│   └── products/
+│       ├── components/
+│       │   ├── ProductTable.jsx
+│       │   └── ProductDetail.jsx
+│       └── pages/
+│           └── ProductsPage.jsx
+|
+├── hooks/              # Các custom hooks
+│   ├── useApi.js       # Hook để gọi API
+│   └── useDebounce.js
+|
+├── pages/              # Nơi chứa các trang chính
+│   ├── HomePage.jsx
+│   ├── NotFoundPage.jsx
+│   └── ...
+|
+├── stores/             # Quản lý trạng thái (State Management)
+│   ├── productStore.js
+│   └── userStore.js
+|
+├── utils/              # Các hàm tiện ích, helpers
+│   ├── validation.js
+│   └── format.js
+|
+├── App.jsx             # Component gốc, nơi chứa Routing
+└── index.js

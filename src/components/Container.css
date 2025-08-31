@@ -1,0 +1,12 @@
+.containerDB {
+  width: 90%;
+  height: 90vh;
+  background-color: #ededf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vh;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}

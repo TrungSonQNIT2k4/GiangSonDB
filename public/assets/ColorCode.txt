@@ -1,0 +1,56 @@
+Bảng Mã Màu Từ Ảnh Mẫu
+Màu Nền Chính (Background)
+
+Màu: Trắng/Xám Rất Nhạt (Gần như trắng tinh)
+
+Mã HEX: #ededf9
+
+Đây là màu nền chủ đạo cho toàn bộ trang dashboard, tạo cảm giác sạch sẽ và gọn gàng.
+
+Màu Card & Widget
+
+Màu: Trắng Tinh
+
+Mã HEX: #FFFFFF
+
+Màu này được sử dụng cho nền của các "card" chứa thông tin và biểu đồ, giúp chúng nổi bật trên nền xám nhạt.
+
+Màu Nhấn (Accent Color)
+
+Màu: Xanh Lam
+
+Mã HEX: #4452f5
+
+Đây là màu nhấn chính, được sử dụng cho các biểu đồ, icon, và các nút bấm quan trọng (ví dụ: nút "Upgrade Pro" ở góc dưới cùng bên trái). Màu này tạo sự chuyên nghiệp và hiện đại.
+
+Màu Sắc Dữ Liệu & Biểu Đồ
+
+Màu: Tím
+
+Mã HEX: #8566FF
+
+Được dùng để làm màu nhấn phụ, thường thấy trong các biểu đồ dạng cột hoặc đồ thị.
+
+Màu Trạng Thái (Status Colors)
+
+Màu Xanh Lá Cây (Tăng trưởng/Tốt)
+
+Mã HEX: #22C55E
+
+Dùng cho các chỉ số tăng trưởng tích cực, thể hiện sự thành công.
+
+Màu Đỏ Cam (Giảm/Cảnh báo)
+
+Mã HEX: #F43F5E
+
+Dùng để cảnh báo hoặc thể hiện các chỉ số tiêu cực.
+
+Màu Văn Bản & Icon
+
+Màu Xám Đậm: #495057
+
+Dùng cho các tiêu đề chính, văn bản có độ ưu tiên cao.
+
+Màu Xám Nhạt: #6C757D
+
+Dùng cho các văn bản phụ, chú thích, icon có độ ưu tiên thấp hơn.
