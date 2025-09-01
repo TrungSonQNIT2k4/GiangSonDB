@@ -3,9 +3,9 @@ import Nav from "./Nav";
 import { AnimatePresence, motion as Motion } from "framer-motion";
 
 const layoutVariants = {
-  initial: { opacity: 0, scale: 0.5 },
-  animate: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
-  exit: { opacity: 0, scale: 0.8, transition: { duration: 0.2 } },
+  initial: { opacity: 0, y: 400 },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.4 } },
+  exit: { opacity: 0, y: -400, transition: { duration: 0.3 } },
 };
 
 export default function Layout() {

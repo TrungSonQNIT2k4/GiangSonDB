@@ -1,0 +1,7 @@
+Mở máy: git pull
+
+Code xong: git add .
+
+Ghi chú: git commit -m "Mô tả"
+
+Đẩy lên: git push

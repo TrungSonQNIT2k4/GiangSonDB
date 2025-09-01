@@ -1,0 +1,19 @@
+.infoDB {
+  display: flex;
+  width: 100%;
+}
+
+.dateTime {
+  flex-grow: 2;
+}
+
+.navInfo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.infoPerson {
+  height: 45px;
+}

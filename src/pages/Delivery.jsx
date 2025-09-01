@@ -1,13 +1,13 @@
-import "./Product.css";
+import "./Delivery.css";
 import "./ContainerMain.css";
 import CarDB from "../components/CardDB";
 import Header from "../components/Header";
 
-export default function Product() {
+export default function Delivery() {
   return (
     <div className="containerMain">
       <div className="homeDB">
-        <Header pageName="Hàng hóa" />
+        <Header pageName="Vận chuyển" />
         <CarDB content={"SƠ ĐỒ"} />
         <CarDB content={"THU NHẬP"} />
         <CarDB content={"LỢI NHUẬN"} />

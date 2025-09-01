@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Product from "./pages/Product";
-import Delivery from "./components/Delivery";
+import Delivery from "./pages/Delivery";
 
 export default function App() {
   return (

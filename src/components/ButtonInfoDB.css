@@ -1,0 +1,17 @@
+.btnIconIFDB {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  margin-right: 15px;
+  background-color: #f8f7fc;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in;
+}
+
+.btnIconIFDB:hover {
+  transform: scale(1.2);
+}
